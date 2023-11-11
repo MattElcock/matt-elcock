@@ -12,12 +12,12 @@ const Introduction = () => {
       </div>
       <div className="space-y-3">
         <p>
-          I'm one of two dads to eight rats, have recently taken up gardening
-          and can usually be found gaming - I often lose too many hours to city
-          builders (City Skylines 1 and 2 &#129505;).
+          I&apos;m one of two dads to eight rats, have recently taken up
+          gardening and can usually be found gaming - I often lose too many
+          hours to city builders (City Skylines 1 and 2 &#129505;).
         </p>
         <p>
-          I'm passionate about making sure the end-user is represented
+          I&apos;m passionate about making sure the end-user is represented
           throughout product delivery and that their experience is prioritised.
           I thoroughly enjoy building and designing UI and tackling problems.
         </p>
@@ -26,10 +26,21 @@ const Introduction = () => {
   );
 };
 
+const Technologies = () => {
+  return (
+    <div>
+      <h2 className="text-2xl">Technologies</h2>
+    </div>
+  );
+};
+
 export default function Home() {
   return (
     <main>
-      <Introduction />
+      <div className="space-y-10">
+        <Introduction />
+        <Technologies />
+      </div>
     </main>
   );
 }
