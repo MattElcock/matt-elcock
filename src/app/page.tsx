@@ -1,9 +1,10 @@
+import { Container } from "@/components/Container";
 import { ImageLink } from "@/components/ImageLink";
 import Image from "next/image";
 
 const Introduction = () => {
   return (
-    <div className="space-y-5 px-3 py-5">
+    <Container>
       <div className="flex gap-5 items-center">
         <Image
           className="rounded-full"
@@ -31,13 +32,13 @@ const Introduction = () => {
         </p>
         <p>Take care.</p>
       </div>
-    </div>
+    </Container>
   );
 };
 
 const Technologies = () => {
   return (
-    <div className="space-y-3 px-3 py-5 bg-violet-700 text-slate-50">
+    <Container colourdBackground>
       <h2 className="text-2xl">Technologies</h2>
       <p>Here is a collection of technologies I am most comfortable with.</p>
       <div className="grid grid-cols-3 gap-4 place-items-center">
@@ -88,7 +89,7 @@ const Technologies = () => {
           imgAlt="Testing Library"
         />
       </div>
-    </div>
+    </Container>
   );
 };
 
