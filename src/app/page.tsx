@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Introduction = () => {
   return (
-    <div className="space-y-5">
+    <div className="space-y-5 px-3">
       <div className="flex gap-5 items-center">
         <Image
           className="rounded-full"
@@ -20,13 +20,15 @@ const Introduction = () => {
         <p>
           I&apos;m one of two dads to eight rats, have recently taken up
           gardening and can usually be found gaming - I often lose too many
-          hours to city builders (City Skylines 1 and 2 &#129705;).
+          hours to city builders (Cities: Skylines I and II{" "}
+          <span className="text-red-600">&#x2764;</span>).
         </p>
         <p>
           I&apos;m passionate about making sure the end-user is represented
           throughout product delivery and that their experience is prioritised.
           I thoroughly enjoy building and designing UI and tackling problems.
         </p>
+        <p>Take care.</p>
       </div>
     </div>
   );
@@ -34,9 +36,9 @@ const Introduction = () => {
 
 const Technologies = () => {
   return (
-    <div className="space-y-5">
+    <div className="space-y-3 p-3 bg-violet-700 text-slate-50 ">
       <h2 className="text-2xl">Technologies</h2>
-      <div className="flex flex-wrap gap-5 items-center">
+      <div className="grid grid-cols-3 gap-5 place-items-center">
         <a href="https://nextjs.org/">
           <Image
             src="/img/next.svg"
@@ -104,8 +106,8 @@ const Technologies = () => {
           <Image
             src="/img/jest.svg"
             alt="Jest"
-            width={120}
-            height={38.5}
+            width={70}
+            height={70}
             priority
           />
         </a>
@@ -126,7 +128,7 @@ const Technologies = () => {
 export default function Home() {
   return (
     <main>
-      <div className="space-y-10">
+      <div className="space-y-5">
         <Introduction />
         <Technologies />
       </div>

@@ -18,7 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="m-5">{children}</div>
+        <header className="w-screen h-20 bg-violet-700 mb-5"></header>
+        <div>{children}</div>
         <Analytics />
       </body>
     </html>
