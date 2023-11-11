@@ -20,7 +20,7 @@ const Introduction = () => {
         <p>
           I&apos;m one of two dads to eight rats, have recently taken up
           gardening and can usually be found gaming - I often lose too many
-          hours to city builders (City Skylines 1 and 2 &#129505;).
+          hours to city builders (City Skylines 1 and 2 &#129705;).
         </p>
         <p>
           I&apos;m passionate about making sure the end-user is represented
@@ -41,8 +41,8 @@ const Technologies = () => {
           <Image
             src="/img/next.svg"
             alt="NextJS"
-            width={90}
-            height={18.5}
+            width={120}
+            height={38.5}
             priority
           />
         </a>
@@ -50,8 +50,8 @@ const Technologies = () => {
           <Image
             src="/img/react.svg"
             alt="React"
-            width={50}
-            height={50}
+            width={70}
+            height={70}
             priority
           />
         </a>
@@ -59,8 +59,8 @@ const Technologies = () => {
           <Image
             src="/img/node.svg"
             alt="NodeJS"
-            width={90}
-            height={18.5}
+            width={120}
+            height={38.5}
             priority
           />
         </a>
@@ -68,8 +68,8 @@ const Technologies = () => {
           <Image
             src="/img/typescript.svg"
             alt="TypeScript"
-            width={50}
-            height={50}
+            width={70}
+            height={70}
             priority
           />
         </a>
@@ -77,8 +77,8 @@ const Technologies = () => {
           <Image
             src="/img/javascript.svg"
             alt="JavaScript"
-            width={50}
-            height={50}
+            width={70}
+            height={70}
             priority
           />
         </a>
@@ -86,8 +86,8 @@ const Technologies = () => {
           <Image
             src="/img/openapi.svg"
             alt="OpenAPI"
-            width={90}
-            height={18.5}
+            width={120}
+            height={38.5}
             priority
           />
         </a>
@@ -95,8 +95,8 @@ const Technologies = () => {
           <Image
             src="/img/graphql.svg"
             alt="GraphQL"
-            width={50}
-            height={50}
+            width={70}
+            height={70}
             priority
           />
         </a>
@@ -104,8 +104,8 @@ const Technologies = () => {
           <Image
             src="/img/jest.svg"
             alt="Jest"
-            width={90}
-            height={18.5}
+            width={120}
+            height={38.5}
             priority
           />
         </a>
@@ -113,8 +113,8 @@ const Technologies = () => {
           <Image
             src="/img/testing-library.png"
             alt="Jest"
-            width={50}
-            height={50}
+            width={70}
+            height={70}
             priority
           />
         </a>
