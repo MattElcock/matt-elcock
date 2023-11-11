@@ -5,15 +5,16 @@ import Image from "next/image";
 const Introduction = () => {
   return (
     <Container>
-      <div className="flex gap-5 items-center">
+      <div className="flex gap-5 items-center bg-blue-800 rounded-full p-2 mx-[-2px] text-slate-50 animate-post overflow-hidden">
         <Image
           className="rounded-full"
           src="/img/matt-elcock-avatar-96.jpg"
           alt="Matt Elcock"
-          width={96}
-          height={96}
+          width={70}
+          height={70}
+          style={{ height: "70px" }}
         />
-        <h2>
+        <h2 className="whitespace-nowrap">
           <span className="block text-lg">Hiya!</span>
           <span className="block text-2xl">I&apos;m Matt.</span>
         </h2>
