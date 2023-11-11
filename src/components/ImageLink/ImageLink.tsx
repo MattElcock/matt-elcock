@@ -16,7 +16,11 @@ const ImageLink = ({
   imgHeight = 60,
 }: ImageLinkProps) => {
   return (
-    <a href={linkHref} className="w-full p-2 rounded-lg bg-violet-500">
+    <a
+      href={linkHref}
+      className="w-full p-2 rounded-lg bg-violet-500"
+      target="_blank"
+    >
       <div className="flex flex-col items-center gap-1">
         <Image
           src={imgSrc}

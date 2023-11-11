@@ -61,8 +61,9 @@ const Technologies = () => {
           linkHref="https://nodejs.org/"
           imgSrc="/img/node.svg"
           imgAlt="NodeJS"
+          imgHeight={53}
+          imgWidth={53}
         />
-
         <ImageLink
           linkHref="https://www.javascript.com/"
           imgSrc="/img/javascript.svg"
@@ -95,11 +96,9 @@ const Technologies = () => {
 
 export default function Home() {
   return (
-    <main>
-      <div className="space-y-5">
-        <Introduction />
-        <Technologies />
-      </div>
-    </main>
+    <div className="space-y-5">
+      <Introduction />
+      <Technologies />
+    </div>
   );
 }
