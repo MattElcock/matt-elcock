@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Introduction = () => {
   return (
-    <div className="flex flex-col gap-5">
+    <div className="space-y-5">
       <div className="flex gap-5 items-center">
         <Image
           className="rounded-full"
@@ -34,8 +34,91 @@ const Introduction = () => {
 
 const Technologies = () => {
   return (
-    <div>
+    <div className="space-y-5">
       <h2 className="text-2xl">Technologies</h2>
+      <div className="flex flex-wrap gap-5 items-center">
+        <a href="https://nextjs.org/">
+          <Image
+            src="/img/next.svg"
+            alt="NextJS"
+            width={90}
+            height={18.5}
+            priority
+          />
+        </a>
+        <a href="https://react.dev/">
+          <Image
+            src="/img/react.svg"
+            alt="React"
+            width={50}
+            height={50}
+            priority
+          />
+        </a>
+        <a href="https://nodejs.org/">
+          <Image
+            src="/img/node.svg"
+            alt="NodeJS"
+            width={90}
+            height={18.5}
+            priority
+          />
+        </a>
+        <a href="https://www.typescriptlang.org/">
+          <Image
+            src="/img/typescript.svg"
+            alt="TypeScript"
+            width={50}
+            height={50}
+            priority
+          />
+        </a>
+        <a href="https://www.javascript.com/">
+          <Image
+            src="/img/javascript.svg"
+            alt="JavaScript"
+            width={50}
+            height={50}
+            priority
+          />
+        </a>
+        <a href="https://spec.openapis.org/oas/latest.html">
+          <Image
+            src="/img/openapi.svg"
+            alt="OpenAPI"
+            width={90}
+            height={18.5}
+            priority
+          />
+        </a>
+        <a href="https://graphql.org/">
+          <Image
+            src="/img/graphql.svg"
+            alt="GraphQL"
+            width={50}
+            height={50}
+            priority
+          />
+        </a>
+        <a href="https://jestjs.io/">
+          <Image
+            src="/img/jest.svg"
+            alt="Jest"
+            width={90}
+            height={18.5}
+            priority
+          />
+        </a>
+        <a href="https://testing-library.com/docs/react-testing-library/intro/">
+          <Image
+            src="/img/testing-library.png"
+            alt="Jest"
+            width={50}
+            height={50}
+            priority
+          />
+        </a>
+      </div>
     </div>
   );
 };
