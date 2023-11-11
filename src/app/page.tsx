@@ -1,10 +1,16 @@
-import { Avatar } from "@/components/Avatar";
+import Image from "next/image";
 
 const Introduction = () => {
   return (
     <div className="flex flex-col gap-5">
       <div className="flex gap-5 items-center">
-        <Avatar />
+        <Image
+          className="rounded-full"
+          src="/img/matt-elcock-avatar-96.jpg"
+          alt="Matt Elcock"
+          width={96}
+          height={96}
+        />
         <h2>
           <span className="block text-lg">Hiya!</span>
           <span className="block text-2xl">I&apos;m Matt.</span>

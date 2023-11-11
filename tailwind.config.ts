@@ -6,13 +6,6 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {
-    extend: {
-      backgroundImage: {
-        "avatar-96": "url('/img/matt-elcock-avatar-96.jpg')",
-      },
-    },
-  },
   plugins: [],
 };
 export default config;
