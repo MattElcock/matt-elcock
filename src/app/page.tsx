@@ -1,8 +1,9 @@
+import { ImageLink } from "@/components/ImageLink";
 import Image from "next/image";
 
 const Introduction = () => {
   return (
-    <div className="space-y-5 px-3">
+    <div className="space-y-5 px-3 py-5">
       <div className="flex gap-5 items-center">
         <Image
           className="rounded-full"
@@ -16,7 +17,7 @@ const Introduction = () => {
           <span className="block text-2xl">I&apos;m Matt.</span>
         </h2>
       </div>
-      <div className="space-y-3">
+      <div className="space-y-2">
         <p>
           I&apos;m one of two dads to eight rats, have recently taken up
           gardening and can usually be found gaming - I often lose too many
@@ -36,90 +37,56 @@ const Introduction = () => {
 
 const Technologies = () => {
   return (
-    <div className="space-y-3 p-3 bg-violet-700 text-slate-50 ">
+    <div className="space-y-3 px-3 py-5 bg-violet-700 text-slate-50">
       <h2 className="text-2xl">Technologies</h2>
-      <div className="grid grid-cols-3 gap-5 place-items-center">
-        <a href="https://nextjs.org/">
-          <Image
-            src="/img/next.svg"
-            alt="NextJS"
-            width={120}
-            height={38.5}
-            priority
-          />
-        </a>
-        <a href="https://react.dev/">
-          <Image
-            src="/img/react.svg"
-            alt="React"
-            width={70}
-            height={70}
-            priority
-          />
-        </a>
-        <a href="https://nodejs.org/">
-          <Image
-            src="/img/node.svg"
-            alt="NodeJS"
-            width={120}
-            height={38.5}
-            priority
-          />
-        </a>
-        <a href="https://www.typescriptlang.org/">
-          <Image
-            src="/img/typescript.svg"
-            alt="TypeScript"
-            width={70}
-            height={70}
-            priority
-          />
-        </a>
-        <a href="https://www.javascript.com/">
-          <Image
-            src="/img/javascript.svg"
-            alt="JavaScript"
-            width={70}
-            height={70}
-            priority
-          />
-        </a>
-        <a href="https://spec.openapis.org/oas/latest.html">
-          <Image
-            src="/img/openapi.svg"
-            alt="OpenAPI"
-            width={120}
-            height={38.5}
-            priority
-          />
-        </a>
-        <a href="https://graphql.org/">
-          <Image
-            src="/img/graphql.svg"
-            alt="GraphQL"
-            width={70}
-            height={70}
-            priority
-          />
-        </a>
-        <a href="https://jestjs.io/">
-          <Image
-            src="/img/jest.svg"
-            alt="Jest"
-            width={70}
-            height={70}
-            priority
-          />
-        </a>
-        <a href="https://testing-library.com/docs/react-testing-library/intro/">
-          <Image
-            src="/img/testing-library.png"
-            alt="Jest"
-            width={70}
-            height={70}
-            priority
-          />
-        </a>
+      <p>Here is a collection of technologies I am most comfortable with.</p>
+      <div className="grid grid-cols-3 gap-4 place-items-center">
+        <ImageLink
+          linkHref="https://nextjs.org/"
+          imgSrc="/img/next.svg"
+          imgAlt="NextJS"
+        />
+        <ImageLink
+          linkHref="https://react.dev/"
+          imgSrc="/img/react.svg"
+          imgAlt="React"
+        />
+        <ImageLink
+          linkHref="https://www.typescriptlang.org/"
+          imgSrc="/img/typescript.svg"
+          imgAlt="Typescript"
+        />
+        <ImageLink
+          linkHref="https://nodejs.org/"
+          imgSrc="/img/node.svg"
+          imgAlt="NodeJS"
+        />
+
+        <ImageLink
+          linkHref="https://www.javascript.com/"
+          imgSrc="/img/javascript.svg"
+          imgAlt="JavaScript"
+        />
+        <ImageLink
+          linkHref="https://spec.openapis.org/oas/latest.html"
+          imgSrc="/img/openapi.png"
+          imgAlt="OpenAPI"
+        />
+        <ImageLink
+          linkHref="https://graphql.org/"
+          imgSrc="/img/graphql.svg"
+          imgAlt="GraphQL"
+        />
+        <ImageLink
+          linkHref="https://jestjs.io/"
+          imgSrc="/img/jest.svg"
+          imgAlt="Jest"
+        />
+        <ImageLink
+          linkHref="https://testing-library.com/docs/react-testing-library/intro/"
+          imgSrc="/img/testing-library.png"
+          imgAlt="Testing Library"
+        />
       </div>
     </div>
   );
