@@ -6,7 +6,7 @@ import { MdLocationOn, MdOutlineSchool, MdWorkHistory } from "react-icons/md";
 const AboutMe = () => {
   return (
     <Container>
-      <div className="flex gap-5 items-center bg-blue-800 rounded-full p-1 mx-[-2px] text-slate-50 animate-post overflow-hidden">
+      <div className="flex gap-5 items-center bg-blue-800 rounded-full p-1 mx-[-2px] text-slate-50 animate-[slide-in_2s_ease-in-out] md:animate-[slide-in_3.5s_ease-in-out] overflow-hidden md:max-w-[320px]">
         <Image
           className="rounded-full"
           src="/img/matt-elcock-avatar-96.jpg"

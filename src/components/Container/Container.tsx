@@ -8,12 +8,14 @@ type ContainerProps = {
 const Container = ({ colourdBackground, children }: ContainerProps) => {
   return (
     <div
-      className={`space-y-5 px-3 py-5 ${
+      className={`${
         colourdBackground &&
         "bg-gradient-to-br from-violet-700 from-40% to-blue-800 via-40% text-slate-50"
       }`}
     >
-      {children}
+      <div className="space-y-5 px-3 py-5 md:container md:mx-auto">
+        {children}
+      </div>
     </div>
   );
 };
