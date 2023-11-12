@@ -1,0 +1,14 @@
+.vertical-timeline-element-content .vertical-timeline-element-content-header p {
+    margin: 3px 0
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-content-summary  p {
+    font-size: inherit;
+    font-weight: normal;
+}
+
+.vertical-timeline-element-content:after {
+    content: none;
+    display: initial;
+    clear: none;
+}
