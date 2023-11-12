@@ -23,6 +23,15 @@ export default function RootLayout({
         <header>
           <Container colourdBackground>
             <div className="flex justify-end gap-5">
+              <a href="https://github.com/MattElcock" target="_blank">
+                <Image
+                  src="/img/github.svg"
+                  alt="Github"
+                  width={30}
+                  height={30}
+                  priority
+                />
+              </a>
               <a
                 href="https://www.linkedin.com/in/matthewelcock/"
                 target="_blank"
